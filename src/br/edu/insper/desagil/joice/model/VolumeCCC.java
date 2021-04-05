@@ -4,7 +4,7 @@ public class VolumeCCC {
 	private double raio;
 	
 	public VolumeCCC (double raio) {
-		this.raio = raio/Math.pow(10, -7);
+		this.raio = raio*Math.pow(10, -7);
 	}
 	public double calculaLado() {
 		return (4*this.raio)/(double)Math.sqrt(3);
